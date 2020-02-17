@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 5vw 20vh 5vw;
+}
+header img{
+    width: 23vw;
+    height: 2vh;
+    margin-top: 7px;
+    object-fit: contain;
+}
+header button{
+    width: 23vw;
+    border-radius: 1rem;
+    height: 4vh;
+    background: white;
+    border-color: hsl(322, 100%, 66%);
+    font-size: 0.7rem;
+    color: hsl(322, 100%, 66%);
+    border-width: 1px;
+}
+.start{
+    text-align: center;
+    width: 100vw;
+}
+.start h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+.start p{
+    margin: 7vh 6vh 10vh 6vh;
+    line-height: 1.5rem;
+}
+.start button{
+    width: 54vw;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    height: 3rem;
+    color: white;
+    border-width: 0px;
+    margin-bottom: 15vh;
+    font-weight: 600;
+}
+.sc img{
+    width: 80%;
+    object-fit: contain;
+    margin: 0rem 1rem 6rem 2.2rem;
+}
+.com-formed{
+   text-align: center;
+}
+.com-formed img{
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: -25vh;
+}
+.com-formed span{
+    font-weight: 700;
+    font-size: 5rem;
+}
+.msg-sent{
+    text-align: center;
+    margin-top: 5rem;
+}
+.msg-sent img{
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: -25vh;
+}
+.msg-sent span{
+    font-weight: 700;
+    font-size: 5rem;
+}.grow{
+    text-align: center;
+}
+.grow img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.one{
+    background-color: white;
+}
+.grow h2{
+    background-color:#F6FBFF ;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.grow p{
+    background-color:#F6FBFF ;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: -1rem;
+}
+.two{
+    background-color:#F6FBFF ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+.flowing-convo img{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 4.5rem;
+    margin-bottom: 6rem;
+}
+.flowing-convo h2{
+    text-align: center;
+}
+.flowing-convo p{
+    text-align: center;
+    line-height: 1.5rem;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    margin-bottom: 4rem;
+}
+.your-users img{
+    width: 100%;
+    object-fit: contain;
+}
+.your-users h2{
+    background-color: #F6FBFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.your-users p{
+    background-color: #F6FBFF;
+    padding: 0rem 2rem 3.5rem 2rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.abc{
+    background-color: #F6FBFF;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.ready{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.ready button{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 3rem;
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border-width: 0rem;
+}
+.last{
+    width: 100%;
+    object-fit: contain;
+}
+footer{
+    color: hsl(207, 100%, 98%);
+    padding: 3rem 1.7rem 3rem 1.7rem;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -1rem;
+}   
+.newsletter p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.email input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.email button {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-width: 0px;
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+    left: 160px;
+    margin-bottom: 6rem;
+}
+.huddle img{
+    width: 30px;
+}
+.huddle span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.huddle p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.contact img{
+    object-fit: contain;
+    margin-right: 1.5rem;
+}
+.contact {
+    line-height: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.social  img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1.5rem;
+    object-fit: contain;
+}
