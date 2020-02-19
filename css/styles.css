@@ -17,9 +17,9 @@ header img{
     object-fit: contain;
 }
 header button{
-    width: 23vw;
+    width: 120px;
     border-radius: 1rem;
-    height: 4vh;
+    height: 80px;
     background: white;
     border-color: hsl(322, 100%, 66%);
     font-size: 0.7rem;
@@ -28,7 +28,7 @@ header button{
 }
 .start{
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 .start h2{
     font-family: 'Poppins', sans-serif;
@@ -224,4 +224,201 @@ footer{
     height: 30px;
     margin-right: 1.5rem;
     object-fit: contain;
+}
+
+@media screen and (min-width:1024px){
+    header{
+        margin:2rem 2rem 6rem 2rem;
+    }
+    header img{
+        width:13vw
+    }
+    header button{
+        width: 120px;
+        height:40px;
+    }
+    .start h2{  
+        margin-bottom: 1.4rem;
+        font-size: 2.5rem;
+    }
+    .start p{
+       width: 40%;
+       text-align: center;
+       margin: 0 auto;
+       margin-bottom: 1.4rem;
+    }
+    .start button{
+        width: 25%;
+    }
+    .sc{
+        text-align: center;
+    }
+    .sc img{
+        width: 100vw;
+        height: 80vh;
+        margin-left: -2rem;
+    }
+    .desk-flex{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .com-formed{
+        margin: 0 auto;
+    }
+    .msg-sent{
+        margin: 0 auto;
+    }
+    .mobile-top-1{
+        display:none
+    }
+    .desktop-top-1{
+        height: 20vh;
+        width: 100%;
+        background-image: url("/images/bg-section-top-desktop-1.svg");
+    }
+    .grow-dsk{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-color: hsl(207, 100%, 98%);
+        width: 100%;
+        padding: 2rem 5rem 2rem 5rem;
+
+    }
+    .grow-dsk img{
+        width: 40%;
+        height: 30%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .grow-dsk section{
+        width: 30%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grow-dsk section p{
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .grow-dsk section h2{
+        padding-bottom: 1rem;
+    }
+    .mobile-bottom-1{
+        display: none;
+    }
+    .desktop-bottom-1{
+       background-image: url("/images/bg-section-bottom-desktop-1.svg");
+       height: 20vh;
+       margin-bottom: 5rem;
+    }
+    .flowing-convo{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        text-align: left;
+        margin-top: 3vh;
+    }
+    .flowing-convo img{
+        width: 40%;
+    }
+    .flow-desk{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: start;
+    }
+    .flow-desk h2{
+        text-align: left;
+    }
+    .flow-desk p{
+        text-align: left;
+        margin: 1.3rem 0 2rem 0;
+    }
+    .mobile-top-2{
+        display: none;
+    }
+    .desktop-top-2{
+        background-image: url("/images/bg-section-top-desktop-2.svg");
+        width: 100%;
+        height: 20vh;
+    }
+    .your-users-dsk{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        background-color: hsl(207, 100%, 98%);
+        width: 100%;
+        padding: 2rem 5rem 2rem 5rem;
+    }
+    .your-users-dsk img{
+        width: 40%;
+    }
+    .your-users-dsk section{
+        width: 30%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .your-users-dsk section h2{
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+    .your-users-dsk section p{
+        text-align: left;
+        margin:  0px;
+        padding: 0px;
+    }
+    .mobile-bottom-2{
+        display: none;
+    }
+    .desktop-bottom-2{
+        background-image: url("/images/bg-section-bottom-desktop-2.svg");
+        width: 100%;
+        height: 20vh;
+    }
+    .ready button{
+        width: 20vw;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5rem;
+    }
+    .flex-news{
+        width: 40%;
+        margin-left: 3rem;
+    }
+    .flex-huddle{
+        width: 40%;
+    }
+    .huddle p{
+        width: 60%;
+    }
+    .flex-news form{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-self: start;
+        flex-wrap: ;
+    }
+    .flex-news form input{
+        width: 60%;
+    }
+    .flex-news form button{
+        width: 30%;
+        margin: 0 auto;
+        margin-left: -9vw;
+        height: 13vh;
+    }
 }
