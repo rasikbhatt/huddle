@@ -9,11 +9,10 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 5vh 5vw 20vh 5vw;
+    margin: 5vh 6vw 20vh 6vw;
 }
 header img{
     width: 23vw;
-    height: 2vh;
     margin-top: 7px;
     object-fit: contain;
 }
@@ -31,9 +30,9 @@ header button{
     text-align: center;
     width: 100vw;
 }
-.start h1{
+.start h2{
     font-family: 'Poppins', sans-serif;
-    margin: 5px;
+    margin: 21px;
 }
 .start p{
     margin: 7vh 6vh 10vh 6vh;
@@ -61,11 +60,12 @@ header button{
     width: 35px;
     height: 30px;
     object-fit: contain;
-    margin-left: -25vh;
+    margin-left: -16vh;
+    margin-bottom: -16px;
 }
 .com-formed span{
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .msg-sent{
     text-align: center;
@@ -75,11 +75,12 @@ header button{
     width: 35px;
     height: 30px;
     object-fit: contain;
-    margin-left: -25vh;
+    margin-left: -16vh;
+    margin-bottom:-16px;
 }
 .msg-sent span{
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 3rem;
 }.grow{
     text-align: center;
 }
@@ -164,7 +165,7 @@ header button{
     border-radius: 2rem;
     border-width: 0rem;
 }
-.last{
+.last img{
     width: 100%;
     object-fit: contain;
 }
