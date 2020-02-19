@@ -17,9 +17,9 @@ header img{
     object-fit: contain;
 }
 header button{
-    width: 160px;
+    width: 24vw;
     border-radius: 1rem;
-    height: 80px;
+    height: 3vh;
     background: white;
     border-color: hsl(322, 100%, 66%);
     font-size: 0.7rem;
@@ -234,8 +234,8 @@ footer{
         width:13vw
     }
     header button{
-        width: 160px;
-        height:40px;
+        width: 10vw;
+        height:9vh;
     }
     .start h2{  
         margin-bottom: 1.4rem;
