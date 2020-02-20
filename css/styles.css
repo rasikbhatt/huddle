@@ -173,7 +173,7 @@ header button{
 }
 footer{
     color: hsl(207, 100%, 98%);
-    padding: 3rem 1.7rem 3rem 1.7rem;
+    padding: 3rem 2rem 3rem 1.7rem;
     background-color: hsl(192, 100%, 9%);
     margin-top: -1rem;
     object-fit: cover;
@@ -198,7 +198,7 @@ footer{
     margin-top: 1rem;
     border-radius: 5px;
     position: relative;
-    left: 160px;
+    left: 50%;
     margin-bottom: 6rem;
 }
 .huddle img{
@@ -420,12 +420,12 @@ footer{
         flex-wrap: ;
     }
     .flex-news form input{
-        width: 60%;
+        width: 64%;
     }
     .flex-news form button{
         width: 30%;
         margin: 0 auto;
-        margin-left: -9vw;
+        margin-left: -15vw;
         height: 48px;
     }
 }
