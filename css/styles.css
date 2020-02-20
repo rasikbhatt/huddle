@@ -173,10 +173,9 @@ header button{
 }
 footer{
     color: hsl(207, 100%, 98%);
-    padding: 3rem 2rem 3rem 1.7rem;
+    padding: 10%;
     background-color: hsl(192, 100%, 9%);
     margin-top: -1rem;
-    object-fit: cover;
 }   
 .newsletter p{
     margin-top: 2rem;
