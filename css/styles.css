@@ -20,7 +20,7 @@ header img{
     object-fit: contain;
 }
 header button{
-    width: 24vw;
+    width: 20%;
     border-radius: 1rem;
     background: white;
     border-color: hsl(322, 100%, 66%);
@@ -86,7 +86,7 @@ header button{
 }.grow{
     text-align: center;
 }
-.grow img{
+.mobile-top-1{
     width: 100%;
     object-fit: contain;
 
