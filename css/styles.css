@@ -26,6 +26,7 @@ header button{
     font-size: 0.7rem;
     color: hsl(322, 100%, 66%);
     border-width: 1px;
+    height: max-content;
 }
 .start{
     text-align: center;
