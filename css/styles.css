@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 5vh 6vw 20vh 6vw;
+    align-items: baseline;
 }
 header img{
     width: 23vw;
