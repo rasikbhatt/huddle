@@ -51,10 +51,14 @@ header button{
     margin-bottom: 15vh;
     font-weight: 600;
 }
+.sc{
+    display: flex;
+    justify-content: center;
+}
 .sc img{
     width: 80%;
     object-fit: contain;
-    margin: 0rem 1rem 6rem 2.2rem;
+    margin-bottom: 6rem;
 }
 .com-formed{
    text-align: center;
