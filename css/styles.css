@@ -55,6 +55,7 @@ header button{
     display: flex;
     justify-content: center;
     align-content: center;
+    object-fit: contain;
     width: 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -272,11 +273,13 @@ footer{
     }
     .sc{
         text-align: center;
+        height: 70vh;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
     .sc img{
         width: 100vw;
-        height: 80vh;
-        margin-left: -2rem;
+        object-fit: contain;
     }
     .desk-flex{
         width: 95%;
