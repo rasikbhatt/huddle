@@ -54,6 +54,7 @@ header button{
 .sc{
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 .sc img{
     width: 80%;
