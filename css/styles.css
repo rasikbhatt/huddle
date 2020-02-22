@@ -19,7 +19,7 @@ header img{
     object-fit: contain;
 }
 header button{
-    width: 20%;
+    width: 70px;
     border-radius: 1rem;
     background: white;
     border-color: hsl(322, 100%, 66%);
