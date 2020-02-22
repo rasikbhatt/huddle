@@ -16,7 +16,6 @@ header{
 }
 header img{
     width: 23vw;
-    margin-top: 7px;
     object-fit: contain;
 }
 header button{
@@ -27,7 +26,7 @@ header button{
     font-size: 0.7rem;
     color: hsl(322, 100%, 66%);
     border-width: 1px;
-    height: 5vh;
+   padding: 2px;
 }
 .start{
     text-align: center;
@@ -63,8 +62,8 @@ header button{
     width: 35px;
     height: 30px;
     object-fit: contain;
-    margin-left: -16vh;
-    margin-bottom: -16px;
+    margin-left: -15vh;
+    margin-bottom: -10px;
 }
 .com-formed span{
     font-weight: 700;
@@ -78,8 +77,8 @@ header button{
     width: 35px;
     height: 30px;
     object-fit: contain;
-    margin-left: -16vh;
-    margin-bottom:-16px;
+    margin-left: -15vh;
+    margin-bottom:-10px;
 }
 .msg-sent span{
     font-weight: 700;
@@ -113,6 +112,10 @@ header button{
     padding-bottom: 2rem;
     margin-top: -9px;
     margin-bottom: -9px;
+    width: 100%;
+}
+.mobile-bottom-1{
+    width: 100%;
 }
 .flowing-convo img{
     width: 100%;
