@@ -48,7 +48,7 @@ header button{
     height: 3rem;
     color: white;
     border-width: 0px;
-    margin-bottom: 15vh;
+    margin-bottom: 4rem;
     font-weight: 600;
 }
 .sc{
@@ -58,7 +58,7 @@ header button{
 .sc img{
     width: 80%;
     object-fit: contain;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 .com-formed{
    text-align: center;
